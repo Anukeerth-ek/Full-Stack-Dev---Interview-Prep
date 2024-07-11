@@ -68,3 +68,6 @@
 // JSX differs from HTML in syntax, handling of attributes, embedding JavaScript expressions, and dealing with styles and events.
 // Using JSX in React simplifies the process of writing and managing UI components by allowing you to combine markup and logic in a single file.
 // _______________________________________________________________________________________
+
+// _______________________________________________________________________________________
+// 5. How do you handle state management in a React application?
