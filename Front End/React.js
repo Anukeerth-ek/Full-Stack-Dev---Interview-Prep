@@ -71,3 +71,8 @@
 
 // _______________________________________________________________________________________
 // 5. How do you handle state management in a React application?
+// ans: Small Applications: useState and useReducer are often sufficient for managing state.
+// Medium to Large Applications: The Context API can be combined with useReducer for managing more complex state.
+// Large and Complex Applications: Consider using external libraries like Redux, Recoil, or MobX for more scalable and maintainable state management.
+// By understanding the strengths and use cases of each approach, you can choose the best state management strategy for your React application.
+// _______________________________________________________________________________________
