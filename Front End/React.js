@@ -76,3 +76,6 @@
 // Large and Complex Applications: Consider using external libraries like Redux, Recoil, or MobX for more scalable and maintainable state management.
 // By understanding the strengths and use cases of each approach, you can choose the best state management strategy for your React application.
 // _______________________________________________________________________________________
+
+// 6. What is ReactJS?
+// ans: React is a JavaScript library for builing user interface. React is developed and maintained by FaceBook. React is JavaScript library used to build reuseable components for the view level of the mvc MdArchitecture. It is highly efficient and uses virutual dom to to render the components. It work on client side and written in JSX.
