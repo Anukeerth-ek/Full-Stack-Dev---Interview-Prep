@@ -79,3 +79,19 @@
 
 // 6. What is ReactJS?
 // ans: React is a JavaScript library for builing user interface. React is developed and maintained by FaceBook. React is JavaScript library used to build reuseable components for the view level of the mvc MdArchitecture. It is highly efficient and uses virutual dom to to render the components. It work on client side and written in JSX.
+// _______________________________________________________________________________________
+
+// 7. What is React?
+// ans: React is a JavaScript library for creating reuseable user interface components exspecially for spa. React is a open source javascript library developed and maintained by FaFacebook. One of the main advantage of react is single page application. In spa we dont need to load the content as per the request. Spa means when the website initially loads the server will pass the html and respective css and javascript code. And it will dynamically rewrite the content according to the user's requests. 
+// Main features in React is 
+// 1. Components
+// 2. State
+// 3. JSX
+// 4. Props
+// 5. Virtual DOM 
+
+// 1. Components is nothing but just a reuseable piece of code we can reuse that when ever we want. 
+// 2. State a React-Object that contains data about or information about that component. A component's state will change when the component re-renders.
+// 3. JSX - is javascript xml it will helps us to write html like code in react. jsx will helps us to write html in react without using the document.createElement() or append().
+// 4. Props we can pass data to one component to another in the form of parent to child. We can pass props from parent to child. React's data flow is unidirectional that is from parent to child only.
+// 5. Virtual DOM - Virtual is copy of real dom. when we update a state the react virutal dom will check the state and compare that with the real dom. And change that only. So it will helps us to increase the performance. 
