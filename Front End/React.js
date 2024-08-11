@@ -95,3 +95,8 @@
 // 3. JSX - is javascript xml it will helps us to write html like code in react. jsx will helps us to write html in react without using the document.createElement() or append().
 // 4. Props we can pass data to one component to another in the form of parent to child. We can pass props from parent to child. React's data flow is unidirectional that is from parent to child only.
 // 5. Virtual DOM - Virtual is copy of real dom. when we update a state the react virutal dom will check the state and compare that with the real dom. And change that only. So it will helps us to increase the performance. 
+
+// _______________________________________________________________________________________
+
+8. What is useMemo ?
+ans: useMemo is a react hook. It is mainly used for increasing performance by memoizing the function and it will be called when only needed. It can take two parameter, the function will run only if the value inside the dependency is changed. Memoizing means it will return the cached value if the input is same as passed before. useMemo is almost similar to useCallback, useCallback will return the memoized function and useMemo will return the memoized value. 
