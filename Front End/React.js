@@ -12,7 +12,7 @@
 
 //   console.log(num1)
 //   console.log(num2)
- 
+
 // }
 
 // getDetails()
@@ -29,7 +29,7 @@
 
 //   console.log(num1)
 //   console.log(num2)
- 
+
 // }
 
 // getDetails()
@@ -46,7 +46,7 @@
 
 //   console.log(num1)
 //   console.log(num2)
- 
+
 // }
 
 // getDetails()
@@ -56,9 +56,9 @@
 
 // _______________________________________________________________________________________
 // 2.Explain the concept of a Single Page Application (SPA).
-// A Single Page Application (SPA) is a web application that dynamically updates the current page rather than loading entire new pages from the server. 
+// A Single Page Application (SPA) is a web application that dynamically updates the current page rather than loading entire new pages from the server.
 // This approach provides a faster and more seamless user experience, leveraging JavaScript for dynamic content loading, client-side routing, and state management.
-//  While SPAs offer numerous advantages, such as improved performance and reduced server load, they also come with challenges like SEO optimization and initial load time.
+// While SPAs offer numerous advantages, such as improved performance and reduced server load, they also come with challenges like SEO optimization and initial load time.
 // _______________________________________________________________________________________
 
 // _______________________________________________________________________________________
@@ -77,26 +77,37 @@
 // By understanding the strengths and use cases of each approach, you can choose the best state management strategy for your React application.
 // _______________________________________________________________________________________
 
-// 6. What is ReactJS?
-// ans: React is a JavaScript library for builing user interface. React is developed and maintained by FaceBook. React is JavaScript library used to build reuseable components for the view level of the mvc MdArchitecture. It is highly efficient and uses virutual dom to to render the components. It work on client side and written in JSX.
 // _______________________________________________________________________________________
-
 // 7. What is React?
-// ans: React is a JavaScript library for creating reuseable user interface components exspecially for spa. React is a open source javascript library developed and maintained by FaFacebook. One of the main advantage of react is single page application. In spa we dont need to load the content as per the request. Spa means when the website initially loads the server will pass the html and respective css and javascript code. And it will dynamically rewrite the content according to the user's requests. 
-// Main features in React is 
+// ans: React is a JavaScript library for creating reuseable user interface components exspecially for spa. React is a open source javascript library developed and maintained by FaFacebook. One of the main advantage of react is single page application. In spa we dont need to load the content as per the request. Spa means when the website initially loads the server will pass the html and respective css and javascript code. And it will dynamically rewrite the content according to the user's requests.
+// Main features in React is
 // 1. Components
 // 2. State
 // 3. JSX
 // 4. Props
-// 5. Virtual DOM 
+// 5. Virtual DOM
 
-// 1. Components is nothing but just a reuseable piece of code we can reuse that when ever we want. 
+// 1. Components is nothing but just a reuseable piece of code we can reuse that when ever we want.
 // 2. State a React-Object that contains data about or information about that component. A component's state will change when the component re-renders.
 // 3. JSX - is javascript xml it will helps us to write html like code in react. jsx will helps us to write html in react without using the document.createElement() or append().
 // 4. Props we can pass data to one component to another in the form of parent to child. We can pass props from parent to child. React's data flow is unidirectional that is from parent to child only.
-// 5. Virtual DOM - Virtual is copy of real dom. when we update a state the react virutal dom will check the state and compare that with the real dom. And change that only. So it will helps us to increase the performance. 
-
+// 5. Virtual DOM - Virtual is a light weight copy of real dom. when we update a state the react virutal dom will check the state and compare that with the real dom. And change that only. So it will helps us to increase the performance.
 // _______________________________________________________________________________________
 
-8. What is useMemo ?
-ans: useMemo is a react hook. It is mainly used for increasing performance by memoizing the function and it will be called when only needed. It can take two parameter, the function will run only if the value inside the dependency is changed. Memoizing means it will return the cached value if the input is same as passed before. useMemo is almost similar to useCallback, useCallback will return the memoized function and useMemo will return the memoized value. 
+// _______________________________________________________________________________________
+// 8. What is useMemo ?
+// ans: useMemo is a react hook. It is mainly used for increasing performance by memoizing the function and it will be called when only needed. It can take two parameter, first is a function and second one is a array of values. Function will run only if the value inside the dependency is changed. Memoizing means it will return the cached value if the input is same as passed before. useMemo is almost similar to useCallback, useCallback will return the memoized function and useMemo will return the memoized value.
+// syntax:
+
+// const getDoubledValue = (num) => {
+//      return num * 2;
+// };
+
+// let num = 2;
+
+// const result = useMemo(() => getDoubledValue(num), [num]);
+// * useMemo will take 2 arguments first one is a function and another one is an array of values.
+// _______________________________________________________________________________________
+
+// _______________________________________________________________________________________
+// 9. What are the features of React ?
