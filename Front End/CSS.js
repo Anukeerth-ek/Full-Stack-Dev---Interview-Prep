@@ -36,3 +36,15 @@
 // _________________________________________________________________
 
 // _________________________________________________________________
+// 6. Explain CSS specificity.
+// ans:
+// CSS specificity is a rank or score that decides style declaration to be used to an element. ID selectors have high specificity, while universal selector * has low specificity. The four CSS categories that authorize the selector's specificity level are IDs, inline style, elements/pseudo-elements, and classes and attributes. 
+// _________________________________________________________________
+
+// _________________________________________________________________
+// 7.  What is common between class and ID?
+// ans:
+// Both class and ID are used in HTML to assign a value from CSS. The ID is used as an element, whereas the class is used as a block. 
+// _________________________________________________________________
+
+// _________________________________________________________________

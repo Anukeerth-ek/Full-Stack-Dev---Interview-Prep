@@ -79,7 +79,7 @@
 
 // _______________________________________________________________________________________
 // 7. What is React?
-// ans: React is a JavaScript library for creating reuseable user interface components exspecially for spa. React is a open source javascript library developed and maintained by FaFacebook. One of the main advantage of react is single page application. In spa we dont need to load the content as per the request. Spa means when the website initially loads the server will pass the html and respective css and javascript code. And it will dynamically rewrite the content according to the user's requests.
+// ans: React is a popular JavaScript library used for building user interfaces, especially single-page applications where you need a fast, interactive user experience. Developed and maintained by Facebook, React helps developers create reusable UI components that can efficiently update and render in response to data changes. One of the main advantage of react is single page application. In spa we dont need to load the content as per the request. Spa means when the website initially loads the server will pass the html and respective css and javascript code. And it will dynamically rewrite the content according to the user's requests.
 // Main features in React is
 // 1. Components
 // 2. State
@@ -110,4 +110,65 @@
 // _______________________________________________________________________________________
 
 // _______________________________________________________________________________________
-// 9. What are the features of React ?
+// 9. What is the difference between state and props?
+// ans:
+// State and props are both ways to manage data in React, but they serve different purposes. State is managed within a component and is mutable, meaning a component can change its own state over time.
+// It’s used for dynamic data that affects how the component behaves or renders. On the other hand, props are immutable and are passed from a parent component to a child component. They configure the child component and provide it with data but cannot be changed by the child.
+//  Essentially, state is for managing a component's own data, while props are for passing data and configuration from parent to child components.
+// _______________________________________________________________________________________
+
+// _______________________________________________________________________________________
+// 10. What is Prop Drilling?
+// ans:
+// Anyone who has worked in React would have faced this and if not then will face it definitely. Prop drilling is basically a situation when the same data is being sent at almost every level due to requirements in the final level. Here is a diagram to demonstrate it better.
+// Data needed to be sent from Parent to ChildC. In this article different ways to do that are discussed.
+// example:
+// Parent
+//   ↓
+// Child (A)
+//   ↓
+// Child (B)
+//   ↓
+// Child (C)
+
+// we can solve this using a context API
+//  eg:
+// 1. Consider parent component will be the child of App.js
+//    2. And in Parent Component there is one child named Child A, And in Child A component there is one child named Child B, and in Child B component there is Child named Child C.
+//    if we need to pass props to child C, commonly we just think by passing the props to all the childrens that end up with props drilling that will cause the performance.
+//    We can solve that issue using Global state management, like context API, redux.
+
+//    Firstly we need to create a provider in the parent component. like
+
+// import { useContext } from "react";
+
+// let nameContext = createContext(null);
+
+// const Parent = () => {
+//      const userFirstName = "Anukeerth";
+//      const userLastNmae = "EK";
+//      return (
+//           <nameContext.Provider value={{userFirstName}}>
+//                <div>
+//                     <ChildA />
+//                </div>
+//           </nameContext.Provider>
+//      );
+// };
+
+// const ChildC = ()=> {
+//     const {userFirstName} = useContext(nameContext)
+//     return (
+//         <div>
+//             <p>{userFirstName}</p>
+//             </div>
+//     )
+// }
+// This is how we use Context API
+// _______________________________________________________________________________________
+
+// _______________________________________________________________________________________
+// 11.  What is the component lifecycle of a React class component?
+// ans:
+
+// _______________________________________________________________________________________
