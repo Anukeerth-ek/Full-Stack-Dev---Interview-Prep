@@ -183,3 +183,21 @@
 
 // Custom Hooks start with "use". Example: useFetch.
 // _______________________________________________________________________________________
+
+// _______________________________________________________________________________________
+// 13. What is a higher order functions?
+// ans:
+// eg:
+// const displayUserName = (userName)=> {
+//     return userName
+// }
+
+// const getUserName = (nameFunction, name)=> {
+//     return nameFunction(name)
+// }
+
+
+// console.log(getUserName(displayUserName, "Kevin"))
+
+// * Higher order functions are functions that take one or more function as an argument or return a function. In here getUserName is a function. 
+// _______________________________________________________________________________________
