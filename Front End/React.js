@@ -168,7 +168,18 @@
 // _______________________________________________________________________________________
 
 // _______________________________________________________________________________________
-// 11.  What is the component lifecycle of a React class component?
+// 11. What you mean by pure components in React?
 // ans:
+// Pure Components in React are components that only re-render when their props or state change.
+// They help optimize performance by preventing unnecessary renders, which is particularly useful for improving the efficiency of a React application.
+// _______________________________________________________________________________________
 
+// _______________________________________________________________________________________
+// 12.  What are custom hooks?
+// ans:
+// Hooks are reusable functions.
+
+// When you have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook.
+
+// Custom Hooks start with "use". Example: useFetch.
 // _______________________________________________________________________________________
