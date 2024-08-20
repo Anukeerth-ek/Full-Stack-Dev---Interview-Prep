@@ -201,3 +201,12 @@
 
 // * Higher order functions are functions that take one or more function as an argument or return a function. In here getUserName is a function. 
 // _______________________________________________________________________________________
+
+// _______________________________________________________________________________________
+// 13. What are Higher Order Components (HOCs) in React?
+// ans:
+// A Higher-Order Component (HOC) is a function in React that takes a component and returns a new component with enhanced functionality.
+//  The HOC pattern is used to add common behavior, state, or logic to multiple components without modifying their original code.
+// _______________________________________________________________________________________
+
+// _______________________________________________________________________________________
