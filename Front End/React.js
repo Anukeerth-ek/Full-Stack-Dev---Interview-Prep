@@ -210,3 +210,22 @@
 // _______________________________________________________________________________________
 
 // _______________________________________________________________________________________
+// 14. What is the role of state in React components?
+// ans:
+// In React, state is a built-in object that allows components to store and manage data that can change over time. This data is private to the component
+// and can influence how the component renders.
+// Key points about state in React:
+// Component Memory:
+// Think of state as the component's memory. It remembers information specific to that component instance.
+// Data Storage:
+// State holds data that is relevant to the component's functionality and appearance. This could be user input, fetched data, or any other dynamic information.
+// Updating UI:
+// When the state changes, React automatically re-renders the component to reflect the updated data. This makes it easy to build dynamic and interactive user interfaces.
+// Local Scope:
+// State is local to a component, meaning that it is not accessible to other components directly. You can pass data from a parent component to its children using props.
+// useState Hook:
+// In functional components, you use the useState hook to manage state. This hook returns an array with two elements: the current state value and a function to update that value.
+// _______________________________________________________________________________________
+
+// _______________________________________________________________________________________
+15. 
