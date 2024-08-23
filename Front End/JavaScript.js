@@ -28,3 +28,19 @@
 // Null: A variable has been explicitly assigned a value of null, indicating an intentional absence of value.
 // Undeclared: A variable that has not been declared at all and attempting to access it will result in a ReferenceError.
 // _________________________________________________________________
+
+// _________________________________________________________________
+// 5. Explain the primary distinction between the Array.forEach() loop and Array.map() method, as well as when to choose one over the other.
+// ans:
+// Array.forEach():
+
+// Purpose: Executes a provided function once for each array element, primarily for side effects or processing.
+// Returns: undefined.
+// Use Case: When you need to perform actions on each element without creating a new array.
+// Array.map():
+
+// Purpose: Creates a new array with the results of applying a provided function to each element.
+// Returns: A new array with transformed elements.
+// Use Case: When you need to transform each element and obtain a new array with the results.
+// Use forEach() for side effects and map() for transforming data.
+// _________________________________________________________________
