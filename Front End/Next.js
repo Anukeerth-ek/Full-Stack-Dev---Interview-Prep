@@ -21,3 +21,12 @@
 // ________________________________________________________________________
 
 // ________________________________________________________________________
+// 4. How does Next.js handle routing?
+// ans:
+// Next.js simplifies routing with a file-based system where the file structure inside the pages directory directly maps to your application's routes. 
+// It supports static, dynamic, and catch-all routes, as well as API routes. The Link component enables client-side navigation, making the routing 
+// experience efficient and user-friendly.
+// ________________________________________________________________________
+
+// ________________________________________________________________________
+5. 
