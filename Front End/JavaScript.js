@@ -44,3 +44,26 @@
 // Use Case: When you need to transform each element and obtain a new array with the results.
 // Use forEach() for side effects and map() for transforming data.
 // _________________________________________________________________
+
+// _________________________________________________________________
+// 6. Reverse a String
+// ans: 
+// const userName = "niveK"
+
+// const reversedName = userName.split('').reverse().join('').toUpperCase()
+// console.log(reversedName) // KEVIN
+// _________________________________________________________________
+// 7. Check for Palindrome
+// i. 2211, 1221
+
+// const firstNumber = "2211";
+// const secondNumber = 1221;
+
+// const resultOfFirst = secondNumber.toString().split('').reverse().join('')
+// if(secondNumber == resultOfFirst){
+//     console.log(`The entered input is Palindrome number`)
+// }
+// else console.log("The entered input is not a Palindrome number")
+// _________________________________________________________________
+
+// _________________________________________________________________
