@@ -44,3 +44,9 @@
 // 5. What is a Module in Node.js?
 // ans: Module is same as JavaScript library. It is a set of functions where we can include in your application.
 // ____________________________________________
+
+// ____________________________________________
+// 6. Why is Node.js Single-threaded?
+// ans: Node.js is single-threaded for async processing. By doing async processing on a single-thread under typical web loads, more performance 
+// and scalability can be achieved instead of the typical thread-based implementation
+// ____________________________________________
