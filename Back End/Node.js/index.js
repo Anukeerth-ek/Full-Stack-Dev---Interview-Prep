@@ -50,3 +50,15 @@
 // ans: Node.js is single-threaded for async processing. By doing async processing on a single-thread under typical web loads, more performance 
 // and scalability can be achieved instead of the typical thread-based implementation
 // ____________________________________________
+
+// ____________________________________________
+// 7. Advantages of Node.js?
+// ans:
+// Performance: Node.js is event-driven and non-blocking, which makes it lightweight and fast for developing web apps. 
+// It also performs well for I/O-bound tasks. 
+// Scalability: Node.js is scalable and can be used for front-end and back-end development. 
+// Community support: Node.js has a large community that can provide support. 
+// Cost-effective: Node.js can be a cost-effective solution, especially for startups. 
+// Cross-platform compatibility: Node.js is compatible across platforms. 
+// Easy to learn: Node.js is simple to use. 
+// ____________________________________________
