@@ -52,3 +52,27 @@
 // Sending Rendered HTML to Client: The fully rendered HTML, along with any necessary CSS and JavaScript, is sent as a response to the client’s browser.
 // Client-Side Hydration: Once the HTML is received by the browser, any JavaScript code needed for interactive elements or further client-side rendering is executed. This process is known as “hydration.”
 // ________________________________________________________________________
+
+// ________________________________________________________________________
+// 7. How can a custom error page be created in Next JS?
+// ans: In order to create a custom error page, we need to follow the given steps-
+
+// An "_error.js" has to be defined in the page folder.
+// Then "_error" component of our own has to be imported rather than "next/error" for using our custom error page.
+// ________________________________________________________________________
+
+// ________________________________________________________________________
+// 8.  Can you use Next JS with Redux?
+// Yes, it is possible to use Next JS with Redux.
+// ________________________________________________________________________
+
+// ________________________________________________________________________
+//9. Mostly for which type of websites is Next JS used?
+// Several types of websites and applications can be built. But the most popular are-
+
+// Desktop websites
+// Static websites
+// Server rendered applications
+// SEO friendly websites
+// Progressive web applications (PWA)
+// ________________________________________________________________________
