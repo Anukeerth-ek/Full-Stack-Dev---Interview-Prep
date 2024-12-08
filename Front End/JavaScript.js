@@ -1,6 +1,6 @@
 // _________________________________________________________________
 // 1. Explain the differences between == and ===
-// ans: 
+// ans:
 // == (Loose Equality): "When using ==, JavaScript performs type coercion, so 5 == '5' evaluates to true because the string '5' is converted to the number 5 before the comparison."
 
 // === (Strict Equality): "When using ===, no type conversion occurs, so 5 === '5' evaluates to false because the number 5 and the string '5' are of different types."
@@ -8,16 +8,16 @@
 
 // _________________________________________________________________
 // 2. What is event delegation, and how does it function in JavaScript?
-// ans: Event delegation is a technique in JavaScript where you attach a single event listener to a parent element instead of attaching individual 
-// listeners to each child element. This listener then handles events that bubble up from its descendant elements.  Event delegation in JavaScript allows you to 
-// efficiently manage events by attaching a single listener to a parent element and using event bubbling to handle interactions with its child elements, 
+// ans: Event delegation is a technique in JavaScript where you attach a single event listener to a parent element instead of attaching individual
+// listeners to each child element. This listener then handles events that bubble up from its descendant elements.  Event delegation in JavaScript allows you to
+// efficiently manage events by attaching a single listener to a parent element and using event bubbling to handle interactions with its child elements,
 // simplifying code and improving performance.
 // _________________________________________________________________
 
 // _________________________________________________________________
 // 3. Explain the concept of prototypal inheritance.?
 // ans:Prototype inheritance in javascript is the linking of prototypes of a parent object to a child object to share and utilize the properties of a
-//  parent class using a child class. Prototypes are hidden objects that are used to share the properties and methods of a parent class with 
+//  parent class using a child class. Prototypes are hidden objects that are used to share the properties and methods of a parent class with
 //  child classes.
 // _________________________________________________________________
 
@@ -47,7 +47,7 @@
 
 // _________________________________________________________________
 // 6. Reverse a String
-// ans: 
+// ans:
 // const userName = "niveK"
 
 // const reversedName = userName.split('').reverse().join('').toUpperCase()
@@ -66,4 +66,28 @@
 // else console.log("The entered input is not a Palindrome number")
 // _________________________________________________________________
 
+// _________________________________________________________________
+
+// 7. What is Closures?
+// ans:
+// 1. So closure is a concept in js where the inner function can access the variable from the outer function.
+
+// for eg:
+
+// const returnUserName = (userName) => {
+//      const name = userName;
+//      console.log("From outer function", userName);
+
+//      return function innerFunction() {
+//           console.log("From inner function", userName);
+//      };
+// };
+
+// const innerFunction = returnUserName("Kevin");
+// innerFunction();
+
+// A closure is a function in JavaScript that "remembers" its lexical scope, even when the function is executed outside that scope. In simpler terms, a closure allows an inner function 
+// to retain access to variables from its outer (enclosing) function, even after the outer function has finished executing.
+
+// Closures are created every time a function is defined, and they are a natural part of JavaScript's function scope behavior.
 // _________________________________________________________________
