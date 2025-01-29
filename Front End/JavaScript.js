@@ -91,3 +91,88 @@
 
 // Closures are created every time a function is defined, and they are a natural part of JavaScript's function scope behavior.
 // _________________________________________________________________
+
+// _________________________________________________________________
+// 8. What is Map and filter in function in js?
+// ans: Map function is used to manipulate or iterate an array element. Map will return new array after iterating/manipulating. And map does not change the original array. 
+
+// Filter is return the value if that value has successfully pass the condition
+
+// const userNamesData = ["Kevin", "John", "Devin", "Peter"]
+// // return the names 
+
+// const userNames = userNamesData.map((name)=> `The teams members ${name}`)
+// console.log(userNames)
+
+
+// const userData = [
+//     {
+//         name: "Kevin",
+//         age: '12'
+//     },
+//     {
+//         name: "John",
+//         age: '42'
+//     },
+//     {
+//         name: "Devin",
+//         age: '37'
+//     },
+//     {
+//         name: "Peter",
+//         age: '22'
+//     },
+// ]
+
+// return only users name whose age is greater than 30
+
+// const userAgeGreaterThanThirty = userData.filter((user)=> user.age > 30).map((user)=> user.name)
+// console.log(userAgeGreaterThanThirty)
+// _________________________________________________________________
+
+// _________________________________________________________________
+// 9. What is Object.freeze()?
+// ans:
+// Consider we have an Object that should not be changed if we unknowingly assign a new value to that. It will change that value right. There comes the JavaScript property 
+// Object.freeze()
+
+// By using Object.freeze() we can't modify or add new values to that Object. 
+
+// Means this will the Object immutable.
+
+// const userDetails = {
+//     name: "kevin",
+//     age: '12'
+// }
+
+
+// Object.freeze(userDetails)
+// console.log("Before", userDetails)  // { name: 'kevin', age: '12' }
+
+// userDetails.place = "kannur"
+
+// userDetails.name = "John"
+
+// userDetails.name = "narayan"
+// console.log("After", userDetails)  // { name: 'kevin', age: '12' }
+// _________________________________________________________________
+
+// _________________________________________________________________
+// 10. What you mean by Object.seal()?
+// ans: By using this will make the object immutable in some sense. We can modify the Object but we can't add new values to the object
+
+// const userDetails = {
+//     name: "kevin",
+//     age : 12
+// }
+
+// console.log("Before", userDetails)
+
+// Object.seal(userDetails)
+
+// userDetails.age = 11
+
+// userDetails.place = "kannur"
+
+// console.log("After", userDetails)
+// _________________________________________________________________
